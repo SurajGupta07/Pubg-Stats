@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"/>
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/loc"
+            android:title="Maps"
+            />
+
+        <item
+            android:id="@+id/weapons"
+            android:icon="@drawable/gun"
+            android:title="Weapons"
+            />
+
+        <item
+            android:id="@+id/about"
+            android:title="About"
+            android:icon="@drawable/about"/>
+
+        <item
+            android:id="@+id/contact"
+            android:title="Contact us"
+            android:icon="@drawable/contact"/>
+        <item
+            android:id="@+id/zombies"
+            android:title="Zombie Mode"
+            android:icon="@drawable/avatar"/>
+
+
+
+
+
+
+
+</menu>
